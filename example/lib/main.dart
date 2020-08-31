@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:dynamic_app_icon/dynamic_app_icon.dart';
 
 void main() => runApp(MyApp());

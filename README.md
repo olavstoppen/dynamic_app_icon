@@ -1,6 +1,6 @@
 # dynamic_app_icon
 
-A plugin that lets you change the icon for the app dynamically.
+A Flutter plugin that lets you change the icon for the app dynamically.
 
 ## Getting Started
 

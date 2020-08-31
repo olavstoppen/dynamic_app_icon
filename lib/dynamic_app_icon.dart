@@ -11,14 +11,14 @@ class DynamicAppIcon
     {
       try
       {
-        var platform = MethodChannel('plugins.emsp.no/dynamic_app_icon');
+        var platform = MethodChannel('plugins.olavstoppen.no/dynamic_app_icon');
         bool result = await platform.invokeMethod('change',<String,String>{'iconName':iconName ?? ""});
         if (result != null && result)
         {
           return Future.value(true);
         }
       }
-      on Exception catch (e)
+      on Exception catch (_)
       {
 
       }
